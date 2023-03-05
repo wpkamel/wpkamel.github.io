@@ -1,0 +1,241 @@
+
+/********** General Style **********/
+
+body {
+  font-family: Poppins, sans-serif;
+  letter-spacing: 2px;
+}
+.contact{
+	background:#19E0D4;
+	font-size:12px;
+	border:none;
+	padding:10px 20px;
+	color:#F1FDFC;
+	letter-spacing: 2px; 
+	border-radius:10px;
+}
+
+/********** Specific Style **********/
+
+/********** Info Section Style **********/
+.sub-menu{background:#858585;color:white;font-weight:semibold;}
+.sub-menu .header-icon{width:16px; height:16px;}
+.text-sub-menu{font-size:14px;}
+/********** Menu Style **********/
+.newnav{background:white;padding-top:10px;padding-bottom:10px;}
+.nav-item{margin-right:20px;font-weight:bold;color:black;opacity:0.9;font-size:14px;}	
+
+.navbar-brand{font-size:40px;font-weight:extrabold;color:black;}	
+/********** Hero Image Style **********/
+
+.hero-image{
+	background-image:url("images/Background-Image-One.png");
+	
+	width:100%;
+	height:auto;
+	Padding-top:130px;Padding-bottom:130px;
+	color:white;
+	opacity:0.9;  	
+}
+.hero-content{text-align:center;}
+.hero-content h1{font-weight:bold;font-size:4em;}
+.hero-content h3{margin-top:40px;}
+.hero-content p{margin-top:30px;margin-bottom:30px;}
+.patch{color:#19E0D4;}
+
+
+
+
+/********** About Style **********/
+
+.about-section{background-color:#FDFDFD;padding-top:130px;padding-bottom:130px;}
+.about-title{text-align:center;margin-bottom:50px;}
+.about-title p{margin-top:40px;}
+.about-section h1{color:#3A3A3A;opacity:0.9;font-size:40px;font-weight:bold;}
+.about-section h2{color:#3A3A3A;opacity:0.9;font-weight:bold;}
+.about-section p{font-size:14px; opacity:0.9;font-weight:regular;}
+
+.Blockone{margin-bottom:60px;}
+.Blockone p{width:80%;}
+.Blocktwo p{width:80%;}
+
+.content-block-one h2{margin-top:20px;}
+.content-block-one p{margin-top:20px;}
+.content-block-one p{margin-bottom:30px;}
+  
+.content-block-two h2{margin-top:20px;}
+.content-block-two p{margin-top:20px;}
+.content-block-two p{margin-bottom:30px;}
+
+/********** Services Style **********/
+
+.services{
+	background-image:url("images/Background_Images_2.jpg");
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	width:100%;
+	height:auto;
+	padding-top:130px;
+	padding-bottom:130px;
+	opacity:0.9;
+}
+
+.title-services{text-align:center;margin-bottom:80px;}
+.title-services h1{color:#F2F1F1; opacity:0.9;font-size:40px;font-weight:bold;}
+.title-services p{color:#F2F1F1; font-size:14px; opacity:0.9;font-weight:regular;margin-top:40px;}
+
+.card-title{margin-top:30px;color:#F2F1F1;}
+.card-text{color:#F2F1F1;font-size:14px; opacity:0.9;font-weight:regular;margin-top:30px;
+margin-bottom:40px;width:95%;}
+.cards{text-align:center;}
+.carousel-control-prev, .carousel-control-next{width:5%;}
+
+.indico{padding-top:200px;}
+.carousel-indicators .ind{
+	width:20px;
+	height: 20px;
+	border-radius:100%;
+	background-color:#19E0D4;
+	}	
+.carousel-control-prev{
+	margin-top:-100px;
+	margin-left:-80px;
+}
+.carousel-control-next{
+	margin-top:-100px;
+	margin-right:-80px;
+}
+
+/********** Companies Style **********/
+
+.companies{background-color:#FDFDFD;padding-top:130px;padding-bottom:130px;}
+.title-companies{text-align:center;margin-bottom:50px;}
+.title-companies h1{color:#3A3A3A;opacity:0.9;font-size:40px;font-weight:bold;}
+.title-companies p{font-size:14px; opacity:0.9;font-weight:regular;margin-top:40px;}
+
+/********** Contact Style **********/
+
+.contact-form{
+	background-image:url("images/Background_Image_3.jpg");
+	width:100%;
+	height: auto;
+	Padding-top:100px;
+	Padding-bottom:100px;
+	color:white;
+	opacity:0.9;
+}	
+.contact-title{font-style:bold;margin-bottom:50px;letter-spacing:2px;
+	color:#F2F1F1; opacity:0.9;font-size:40px;font-weight:bold;
+	}
+.contact-icon{width:20px;height:20px;margin-right:12px;}
+	
+	/********** Contact Form Style **********/
+	
+.send{ 
+float:right;
+}
+
+input[type=text]:focus {
+  border: 0 solid #555;
+}
+input[type=text] {
+  
+  border-radius: none;
+  background-color: #FFFCF9;
+   
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #FFFCF9;
+}
+input[type=email]:focus {
+  border: 0 solid #555;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  background-color: #FFFCF9;
+  resize: none;
+}
+.form-select{
+  background-color: #FFFCF9; 
+  border-radius:none; 
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;}
+  
+  /********** Footer Style **********/
+ .footer-section{
+	 padding-top:100px;
+	 padding-bottom:100px;
+	 background-color:#545454;
+	 color:#DCDCDC;
+ } 
+ .text-logo{font-size:12px;width:90%;margin-bottom:20px;}
+ ul.list-footer{
+  	 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;	
+}
+ul.list-footer li{
+	margin-bottom:10px;
+	font-size:14px; 
+	}
+.social-icon{width:24px;height:24px;}
+.footer-icon{width:16px;height:16px;margin-right:8px;}
+ .footer-copy{
+	 padding-top:12px;
+	 height:40px;
+     text-align: center;
+     font-size:12px;
+ }
+  
+  /********** Responsive Style **********/
+  
+@media screen and (max-width: 780px) {
+	
+.hero-image{height:auto; }
+.hero-content{text-align: left;}
+.hero-content h1{font-size:2em;}
+.hero-content h3{font-size:1em; margin-top:30px;margin-bottom:30px;}
+	
+
+   /****responsive about*****/
+  .about-title{text-align:left;}
+  .content-block-one{margin-top:30px;} 
+  .content-block-two{margin-bottom:30px;}
+  
+  /****responsive services*****/
+  
+  .title-services{text-align:left;}
+  .cards{text-align:left;}
+  .indico{padding-top:150px;}
+  
+  /****responsive companies*****/
+  
+  .title-companies{text-align:left;}
+  
+  .contact-header{margin-bottom:40px;}
+}
+
+
+
+
+
+
+
+
+
+ 
